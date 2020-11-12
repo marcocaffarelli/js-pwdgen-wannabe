@@ -7,3 +7,5 @@ document.getElementById("cognome").innerHTML = cognome;
 // variabile colore preferito
 var colorePreferito = prompt("Inserisci il tuo colore preferito?");
 document.getElementById("colorePreferito").innerHTML = colorePreferito;
+// password
+document.getElementById("password").innerHTML = nome + cognome + colorePreferito + 19;
